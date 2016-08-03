@@ -13,7 +13,7 @@ public class Main {
 
 		List<Observable> consumers = generateConsumers();
 		
-		Produto produto =  new Produto.Builder("Samsung", "Galaxy Ranger").availability("unvailable").observables(consumers).build();
+		Produto produto = new Produto.Builder("Samsung", "Galaxy Ranger").availability("unvailable").observables(consumers).build();
 		produto.setAvailability("Available");
 	}
 	
